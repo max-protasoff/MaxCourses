@@ -1,0 +1,4 @@
+Dog
+DOG
+Cat
+CAT
