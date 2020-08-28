@@ -16,7 +16,7 @@ class CustomIterator:
     def __next__(self):
         try:
             country = self.json_dict[self.x]["name"]["common"]
-            url = 'https://en.wikipedia.org/wiki/' + country
+            url = 'https://en.wikipedia.org/wiki/' + '_'.join(country.split())
             self.x += 1
             return country + ' - ' + url
         except IndexError:
