@@ -100,6 +100,6 @@ add_student(student2)
 add_student(student3)
 
 
-get_students() # Find all students by courses id
+get_students() # Show all students and courses
 
 get_student(1) # Find a student by id
